@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button ucim;
+    private Button ucim, igramSe;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +23,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(getBaseContext(), UcimActivity.class);
                 startActivity(intent);
+            }
+        });
+
+        igramSe = (Button)findViewById(R.id.igramSe);
+        igramSe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(getBaseContext(), IgramSeActivity.class);
+                startActivity(i);
             }
         });
 

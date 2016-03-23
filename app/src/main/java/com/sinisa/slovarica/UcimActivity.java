@@ -15,7 +15,7 @@ public class UcimActivity extends AppCompatActivity {
 
     ImageButton forward, backward;
     FrameLayout frameLayout;
-    ResIds ids = new ResIds();
+    Utilities ids = new Utilities();
     int number = 0;
 
     @Override

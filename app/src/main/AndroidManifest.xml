@@ -10,8 +10,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="landscape">
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,10 +18,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".UcimActivity"
-            android:screenOrientation="landscape"
             android:parentActivityName=".MainActivity">
-
         </activity>
+        <activity android:name=".IgramSeActivity"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>

@@ -18,9 +18,9 @@
 
             <ImageView
                 android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_height="match_parent"
                 android:id="@+id/redarAbecedar"
-                android:background="@drawable/t_izrezano"
+                android:src="@drawable/redar_i_slovo"
                 android:layout_weight="1"
                 android:layout_marginLeft="8dp"
                 android:layout_marginTop="8dp" />
@@ -40,7 +40,7 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:id="@+id/logo"
-                android:src="@drawable/logo"
+                android:src="@drawable/logo12"
                 android:layout_weight="1"
                 android:layout_marginTop="8dp"
                 android:layout_marginRight="8dp" />
