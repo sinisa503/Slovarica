@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Slovarica</string>
     <string name="action_settings">Settings</string>
-    <string name="abeceda">Abeceda</string>
+    <string name="abeceda">Slovarica</string>
     <string name="ucim">Učim</string>
     <string name="igram_se">Igram se</string>
 </resources>

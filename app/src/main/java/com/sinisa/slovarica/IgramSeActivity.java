@@ -13,6 +13,7 @@ import fragments.EazyFragment;
 
 public class IgramSeActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

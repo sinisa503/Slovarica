@@ -11,44 +11,79 @@ import java.util.HashMap;
  */
 public class Utilities {
 
-    private static HashMap<Integer, Integer> mapOfIds = new HashMap<>();
+    private static HashMap<Integer, Integer> mapOfIdsLearning = new HashMap<>();
+    private static HashMap<Integer, Integer> mapOfIdsPlaying = new HashMap<>();
 
     public HashMap<Integer, Integer> getMapOfIds() {
-        return mapOfIds;
+        return mapOfIdsLearning;
     }
-    public static HashMap getIds(){
-        mapOfIds.put(0, R.drawable.a_ucim);
-        mapOfIds.put(1, R.drawable.b_ucim);
-        mapOfIds.put(2, R.drawable.c_ucim);
-        mapOfIds.put(3, R.drawable.cs_ucim);
-        mapOfIds.put(4, R.drawable.cj_ucim);
-        mapOfIds.put(5, R.drawable.d_ucim);
-        mapOfIds.put(6, R.drawable.dz_ucim);
-        mapOfIds.put(7, R.drawable.dj_ucim);
-        mapOfIds.put(8, R.drawable.e_ucim);
-        mapOfIds.put(9, R.drawable.f_ucim);
-        mapOfIds.put(10, R.drawable.g_ucim);
-        mapOfIds.put(11, R.drawable.h_ucim);
-        mapOfIds.put(12, R.drawable.i_ucim);
-        mapOfIds.put(13, R.drawable.j_ucim);
-        mapOfIds.put(14, R.drawable.k_ucim);
-        mapOfIds.put(15, R.drawable.l_ucim);
-        mapOfIds.put(16, R.drawable.lj_ucim);
-        mapOfIds.put(17, R.drawable.m_ucim);
-        mapOfIds.put(18, R.drawable.n_ucim);
-        mapOfIds.put(19, R.drawable.nj_ucim);
-        mapOfIds.put(20, R.drawable.o_ucim);
-        mapOfIds.put(21, R.drawable.p_ucim);
-        mapOfIds.put(22, R.drawable.r_ucim);
-        mapOfIds.put(23, R.drawable.s_ucim);
-        mapOfIds.put(24, R.drawable.sj_ucim);
-        mapOfIds.put(25, R.drawable.t_ucim);
-        mapOfIds.put(26, R.drawable.u_ucim);
-        mapOfIds.put(27, R.drawable.v_ucim);
-        mapOfIds.put(28, R.drawable.z_ucim);
-        mapOfIds.put(29, R.drawable.zs_ucim);
+    public static HashMap getIdsLearning(){
+        mapOfIdsLearning.put(0, R.drawable.a_ucim);
+        mapOfIdsLearning.put(1, R.drawable.b_ucim);
+        mapOfIdsLearning.put(2, R.drawable.c_ucim);
+        mapOfIdsLearning.put(3, R.drawable.cs_ucim);
+        mapOfIdsLearning.put(4, R.drawable.cj_ucim);
+        mapOfIdsLearning.put(5, R.drawable.d_ucim);
+        mapOfIdsLearning.put(6, R.drawable.dz_ucim);
+        mapOfIdsLearning.put(7, R.drawable.dj_ucim);
+        mapOfIdsLearning.put(8, R.drawable.e_ucim);
+        mapOfIdsLearning.put(9, R.drawable.f_ucim);
+        mapOfIdsLearning.put(10, R.drawable.g_ucim);
+        mapOfIdsLearning.put(11, R.drawable.h_ucim);
+        mapOfIdsLearning.put(12, R.drawable.i_ucim);
+        mapOfIdsLearning.put(13, R.drawable.j_ucim);
+        mapOfIdsLearning.put(14, R.drawable.k_ucim);
+        mapOfIdsLearning.put(15, R.drawable.l_ucim);
+        mapOfIdsLearning.put(16, R.drawable.lj_ucim);
+        mapOfIdsLearning.put(17, R.drawable.m_ucim);
+        mapOfIdsLearning.put(18, R.drawable.n_ucim);
+        mapOfIdsLearning.put(19, R.drawable.nj_ucim);
+        mapOfIdsLearning.put(20, R.drawable.o_ucim);
+        mapOfIdsLearning.put(21, R.drawable.p_ucim);
+        mapOfIdsLearning.put(22, R.drawable.r_ucim);
+        mapOfIdsLearning.put(23, R.drawable.s_ucim);
+        mapOfIdsLearning.put(24, R.drawable.sj_ucim);
+        mapOfIdsLearning.put(25, R.drawable.t_ucim);
+        mapOfIdsLearning.put(26, R.drawable.u_ucim);
+        mapOfIdsLearning.put(27, R.drawable.v_ucim);
+        mapOfIdsLearning.put(28, R.drawable.z_ucim);
+        mapOfIdsLearning.put(29, R.drawable.zs_ucim);
 
-        return mapOfIds;
+        return mapOfIdsLearning;
+    }
+    public static HashMap getIdsPlaying(){
+        mapOfIdsPlaying.put(0, R.drawable.a);
+        mapOfIdsPlaying.put(1, R.drawable.b);
+        mapOfIdsPlaying.put(2, R.drawable.c);
+        mapOfIdsPlaying.put(3, R.drawable.cs);
+        mapOfIdsPlaying.put(4, R.drawable.cj);
+        mapOfIdsPlaying.put(5, R.drawable.d);
+        mapOfIdsPlaying.put(6, R.drawable.dz);
+        mapOfIdsPlaying.put(7, R.drawable.dj);
+        mapOfIdsPlaying.put(8, R.drawable.e);
+        mapOfIdsPlaying.put(9, R.drawable.f);
+        mapOfIdsPlaying.put(10, R.drawable.g);
+        mapOfIdsPlaying.put(11, R.drawable.h);
+        mapOfIdsPlaying.put(12, R.drawable.i);
+        mapOfIdsPlaying.put(13, R.drawable.j);
+        mapOfIdsPlaying.put(14, R.drawable.k);
+        mapOfIdsPlaying.put(15, R.drawable.l);
+        mapOfIdsPlaying.put(16, R.drawable.lj);
+        mapOfIdsPlaying.put(17, R.drawable.m);
+        mapOfIdsPlaying.put(18, R.drawable.n);
+        mapOfIdsPlaying.put(19, R.drawable.nj);
+        mapOfIdsPlaying.put(20, R.drawable.o);
+        mapOfIdsPlaying.put(21, R.drawable.p);
+        mapOfIdsPlaying.put(22, R.drawable.r);
+        mapOfIdsPlaying.put(23, R.drawable.s);
+        mapOfIdsPlaying.put(24, R.drawable.sj);
+        mapOfIdsPlaying.put(25, R.drawable.t);
+        mapOfIdsPlaying.put(26, R.drawable.u);
+        mapOfIdsPlaying.put(27, R.drawable.v);
+        mapOfIdsPlaying.put(28, R.drawable.z);
+        mapOfIdsPlaying.put(29, R.drawable.zs);
+
+        return mapOfIdsPlaying;
     }
     public static Bitmap decodeSampledBitmapFromResource(Resources res, int resId,
                                                          int reqWidth, int reqHeight) {
